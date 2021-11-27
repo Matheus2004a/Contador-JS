@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h2>Vamos contar</h2>
+    </header>
+
+    <section>
+        <form>
+            <fieldset>
+                <label for="">Início:</label>
+                <input type="number" name="txt-initial" id="txt-initial" autofocus>
+            </fieldset>
+            <fieldset>
+                <label for="">Fim:</label>
+                <input type="number" name="txt-end" id="txt-end">
+            </fieldset>
+            <fieldset>
+                <label for="">Passo:</label>
+                <input type="number" name="txt-ano" id="txt-steps">
+            </fieldset>
+    
+            <!-- <p id="error"></p> -->
+    
+            <input type="submit" value="Contar" class="buttons" id="btn-submit"></input>
+            <input type="reset" value="Limpar" class="buttons" id="btn-clear"></input>
+        </form>
+
+        <div id="resp">
+            Preparando para a contagem...
+        </div>
+        <div id="space-count">
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; MatheusAurélio</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
